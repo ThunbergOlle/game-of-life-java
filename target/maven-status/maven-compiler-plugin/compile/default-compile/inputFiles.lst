@@ -1,0 +1,11 @@
+/Users/admin/Projects/assignments/game-of-life-java/src/main/java/com/thunbergolle/game/Cell.java
+/Users/admin/Projects/assignments/game-of-life-java/src/main/java/com/thunbergolle/game/State.java
+/Users/admin/Projects/assignments/game-of-life-java/src/main/java/com/thunbergolle/Settings.java
+/Users/admin/Projects/assignments/game-of-life-java/src/main/java/com/thunbergolle/ui/UIManager.java
+/Users/admin/Projects/assignments/game-of-life-java/src/main/java/com/thunbergolle/errors/InvalidGridSizeException.java
+/Users/admin/Projects/assignments/game-of-life-java/src/main/java/com/thunbergolle/ui/components/Grid.java
+/Users/admin/Projects/assignments/game-of-life-java/src/main/java/com/thunbergolle/game/GameManager.java
+/Users/admin/Projects/assignments/game-of-life-java/src/main/java/com/thunbergolle/errors/InvalidSquareSizeException.java
+/Users/admin/Projects/assignments/game-of-life-java/src/main/java/com/thunbergolle/ui/components/Square.java
+/Users/admin/Projects/assignments/game-of-life-java/src/main/java/com/thunbergolle/App.java
+/Users/admin/Projects/assignments/game-of-life-java/src/main/java/com/thunbergolle/errors/NegativePositionException.java
