@@ -11,9 +11,11 @@ public class Grid extends JPanel {
 
     private Integer gridRenderSize;
     private Integer cellRenderSize;
+    private Integer gridSize;
 
     public Grid(Integer gridSize, Integer cellRenderSize) {
         this.cellRenderSize = cellRenderSize;
+        this.gridSize = gridSize;
         this.gridRenderSize = gridSize * cellRenderSize;
         this.setPreferredSize(new Dimension(this.gridRenderSize, this.gridRenderSize));
     }
@@ -23,9 +25,7 @@ public class Grid extends JPanel {
         Graphics2D g2d = (Graphics2D) g.create();
 
         /* Draw the grid */
-        int size = Math.min(this.gridRenderSize, this.gridRenderSize) / cellRenderSize;
-
-        for (int i = 0; i < size; i++) {
+        for (int i = 0; i < gridSize; i++) {
             g2d.drawLine(i * cellRenderSize, 0, i * cellRenderSize, this.gridRenderSize);
             g2d.drawLine(0, i * cellRenderSize, this.gridRenderSize, i * cellRenderSize);
         }
